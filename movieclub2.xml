@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="movieclub.css"?>
+<!DOCTYPE MovieClub SYSTEM "Movieclub.xsd">
+<MovieClub>
+	<heading>
+		<img src= "photos/logo.jpg"/>
+		<text> 
+		Welcome to Movie Club!
+		</text>
+	</heading>
+	<theater id="1">
+		<img src="photos/pitts.jpeg"/>
+		<name>Pittsford Cinemas</name>
+		<address>3349 Monroe Ave., Pittsford Plaza, Rochester, NY 14618</address>
+		<Movie number="1">
+			<image>
+				<img src="photos/Fahrenheit.jpeg"/>
+			</image>
+			<moviename>Fahrenheit 11/9</moviename>
+			<rate>(R)</rate>
+			<duration>2 hr 6 min</duration>
+			<show time="1">1:10p</show>
+			<show time="2">4:10p</show>
+			<show time="3">7:00p</show>
+		</Movie>
+		<Movie number="2">
+			<image>
+				<img src="photos/littileitself.jpeg"/>
+			</image>
+			<moviename>Life Itself (2018)</moviename>
+			<rate>(R)</rate>
+			<duration>1 hr 58 min</duration>
+			<show time="1">11:10a</show>
+			<show time="2">1:50p</show>
+			<show time="3">4:30p</show>
+			<show time="4">7:20p</show>
+		</Movie>
+		<Movie number="3">
+			<image>
+				<img src="photos/lizzie.jpeg"/>
+			</image>
+			<moviename>Lizzie (2018)</moviename>
+			<rate>(R)</rate>
+			<duration>1 hr 46 min</duration>
+			<show time="1">11:50a</show>
+			<show time="2">2:30p</show>
+			<show time="3">5:10p</show>
+			<show time="4">7:50p</show>
+		</Movie>
+	</theater>
+	<theater id="2">
+		<img src="photos/regal.png"/>
+		<name>Regal Greece Ridge Stadium 12</name>
+		<address>176 Greece Ridge Center Dr, Rochester, NY 14626</address>
+		<Movie number="1">
+			<image>
+				<img src="photos/littileitself.jpeg"/>
+			</image>
+			<moviename>Life Itself (2018)</moviename>
+			<rate>(R)</rate>
+			<duration>1 hr 58 min</duration>
+			<show time="1">1:30p</show>
+			<show time="2">4:15p</show>
+			<show time="3">7:30p</show>
+			<show time="4">10:20p</show>
+		</Movie>
+		<Movie number="2">
+			<image>
+				<img src="photos/hcw.jpeg"/>
+			</image>
+			<moviename>The House with a Clock in its Walls</moviename>
+			<rate>(PG)</rate>
+			<duration>1 hr 45 min</duration>
+			<show time="1">1:40p</show>
+			<show time="2">4:25p</show>
+			<show time="3">7:00p</show>
+			<show time="4">9:35p</show>
+		</Movie>
+		<Movie number="3">
+			<image>
+				<img src="photos/peppermint.jpeg"/>
+			</image>
+			<moviename>Peppermint (2018)</moviename>
+			<rate>(R)</rate>
+			<duration>1 hr 42 min</duration>
+			<show time="1">2:10p</show>
+			<show time="2">4:40p</show>
+			<show time="3">8:00p</show>
+			<show time="4">10:30p</show>
+		</Movie>
+	</theater>
+	<theater id="3">
+		<img src="photos/little.png"/>
+		<name>Little Theatres</name>
+		<address>240 East Ave., Rochester, NY 14604</address>
+		<Movie number="1">
+			<image>
+				<img src="photos/Fahrenheit.jpeg"/>
+			</image>
+			<moviename>Fahrenheit 11/9</moviename>
+			<rate>(R)</rate>
+			<duration>2 hr 6 min</duration>
+			<show time="1">6:00p</show>
+			<show time="2">8:40p</show>
+		</Movie>
+		<Movie number="2">
+			<image>
+				<img src="photos/littileitself.jpeg"/>
+			</image>
+			<moviename>Life Itself (2018)</moviename>
+			<rate>(R)</rate>
+			<duration>1 hr 58 min</duration>
+			<show time="1">6:20p</show>
+			<show time="2">8:50p</show>
+		</Movie>
+		<Movie number="3">
+			<image>
+				<img src="photos/thewife.jpeg"/>
+			</image>
+			<moviename>The Wife</moviename>
+			<rate>(R)</rate>
+			<duration>1 hr 40 min</duration>
+			<show time="1">6:10p</show>
+		</Movie>
+	</theater>
+	<theater id ="4">
+		<img src="photos/kodak.jpeg"/>
+		<name>Kodak Center</name>
+		<address>200 West Ridge Road, Rochester, NY 14615</address>
+	</theater>
+</MovieClub>

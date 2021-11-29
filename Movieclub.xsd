@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<xsd:import namespace="http://www.w3.org/1999/xhtml" schemaLocation="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/>
+  <xsd:element name="MovieClub">
+    <xsd:complexType>
+      <xsd:sequence>
+              <xsd:element name="heading">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="img">
+                      <xsd:complexType>
+                        <xsd:simpleContent>
+                          <xsd:extension base="xsd:string">
+                            <xsd:attribute type="xsd:string" name="src"/>
+                          </xsd:extension>
+                        </xsd:simpleContent>
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element type="xsd:string" name="text"/>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="theater" maxOccurs="unbounded" minOccurs="0">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="img">
+                      <xsd:complexType>
+                        <xsd:simpleContent>
+                          <xsd:extension base="xsd:string">
+                            <xsd:attribute type="xsd:string" name="src" use="optional"/>
+                          </xsd:extension>
+                        </xsd:simpleContent>
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element type="xsd:string" name="name"/>
+                    <xsd:element type="xsd:string" name="address"/>
+                    <xsd:element name="Movie" maxOccurs="unbounded" minOccurs="0">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element name="image">
+                            <xsd:complexType>
+                              <xsd:sequence>
+                                <xsd:element name="img">
+                                  <xsd:complexType>
+                                    <xsd:simpleContent>
+                                      <xsd:extension base="xsd:string">
+                                        <xsd:attribute type="xsd:string" name="src" use="optional"/>
+                                      </xsd:extension>
+                                    </xsd:simpleContent>
+                                  </xsd:complexType>
+                                </xsd:element>
+                              </xsd:sequence>
+                            </xsd:complexType>
+                          </xsd:element>
+                          <xsd:element type="xsd:string" name="moviename"/>
+                          <xsd:element type="xsd:string" name="rate"/>
+                          <xsd:element type="xsd:string" name="duration"/>
+                          <xsd:element name="show" maxOccurs="unbounded" minOccurs="0">
+                            <xsd:complexType>
+                              <xsd:simpleContent>
+                                <xsd:extension base="xsd:string">
+                                  <xsd:attribute type="xsd:byte" name="time" use="optional"/>
+                                </xsd:extension>
+                              </xsd:simpleContent>
+                            </xsd:complexType>
+                          </xsd:element>
+                        </xsd:sequence>
+                        <xsd:attribute type="xsd:byte" name="number" use="optional"/>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                  <xsd:attribute type="xsd:byte" name="id" use="optional"/>
+                </xsd:complexType>
+              </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

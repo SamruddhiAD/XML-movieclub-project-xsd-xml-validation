@@ -1,0 +1,70 @@
+MovieClub
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("photos/background.jpg");
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-style: ridge;
+}
+heading{
+    display: block;
+    color: purple;
+    background-color: thistle;
+    font-size:60px;
+    font-weight: bolder;
+}
+theater{
+    display: block;
+    border: 4mm;
+    border-style: double;
+    padding-bottom: 0.5cm;
+}
+name{
+    display: inline;
+    color:darkslateblue;
+    font-size: x-large;
+    vertical-align:30px;
+    font-weight:700;
+}
+address{
+    display:block;
+    color:black;
+    font-size: large;
+    text-align: left;
+    border-style:dashed;
+}
+Movie{
+    padding-top: 0.5cm;
+    display: block;
+    border:1cm;
+    padding-top: 0.5cm;
+}
+image{
+    display: block;
+}
+moviename{
+    display:inline;
+    font-size: large;
+    color: brown;
+    font-weight: bold;
+}
+rate{
+    display:inline;
+    font-size:small;
+    color:black;
+}
+duration{
+    display:flex;
+    font-style: italic;
+    padding-bottom: 0.3cm;
+}
+
+show{
+    display: inline;
+    border-style: ridge;
+    background-color:black;
+    color:azure;
+    padding: 0.1cm;
+}
